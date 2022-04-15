@@ -1,0 +1,131 @@
+body {
+  margin: 0;
+  font-family: 'Poppins', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+nav {
+/* Rectangle 13 */
+  position: absolute;
+  width: 100%;
+  height: 70px;
+  left: 0px;
+  top: 0px;
+
+  background: #FFFFFF;
+  box-shadow: 0px 2.98256px 7.4564px rgba(0, 0, 0, 0.1);
+}
+
+.grey {
+  color: #918E9B
+}
+
+nav img {
+/* airbnb 1 */
+
+position: absolute;
+width: 82.02px;
+height: 25.35px;
+left: 30px;
+top: 22px;
+
+}
+
+span {
+  padding: 5px;
+}
+.nav--logo {
+  max-width: 100px;
+}
+
+section {
+  margin: auto;
+}
+
+.hero-section {
+/* Group 77 */
+  width: 75%;
+  margin-top: 8em;
+  display: flex;
+  flex-direction: column;
+}
+
+.hero-section-title {
+  /* Online Experiences */
+left: 36px;
+top: 360px;
+
+font-weight: 600;
+font-size: 36px;
+line-height: 110%;
+/* identical to box height, or 40px */
+
+color: #000000;
+
+}
+
+.hero-section-text {
+  /* Online Experiences */
+/* Join unique interactive activities led by one-of-a-kind hosts—all without leaving home. */
+
+width: 75%;
+font-weight: 300;
+font-size: 2em;
+line-height: 110%;
+/* or 18px */
+
+color: #222222;
+margin-top: 0;
+}
+
+.hero--photo {
+  max-width: 80%;
+  align-self: center;
+}
+
+.cards-list {
+  display: flex;
+  flex-wrap: nowrap;
+  gap: 20px;
+  overflow-x: auto;
+}
+
+.card {
+  width: 175px;
+  flex: 0 0 auto;         /* ADD */
+  display: flex;          /* ADD */
+  flex-direction: column; /* ADD */
+}
+
+.card--image {
+  width: 100%;
+  border-radius: 9px;
+  margin-bottom: 9px;
+}
+
+/* ADD */
+.card--title {
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.card--stats {
+  display: flex;
+  align-items: center;
+}
+
+.card--star {
+  height: 14px;
+}
+
+/* ADD */
+.card--price {
+  margin-top: auto;
+}
+
