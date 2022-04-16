@@ -1,3 +1,3 @@
 git add .
-git commit -m "sold out badge"
+git commit -m "update Trainer"
 git push

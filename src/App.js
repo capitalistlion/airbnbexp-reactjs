@@ -13,7 +13,7 @@ export default function App() {
     document.title = "AirBnB Experiences"
   }, [])
 
-  const trainers = data.map(element => <Trainer trainerImg={element.coverImg} title={element.title} rating={element.stats.rating} reviewCount={element.stats.reviewCount} price={element.price} location={element.location} openSpots={element.openSpots} />)
+  const trainers = data.map(element => <Trainer key={element.id} element={element} />)
 
   return (
       <div>
